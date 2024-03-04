@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="headerBlock">
+      <div class="title">
+        <h2>todolist</h2>
+      </div>
+      <div class="inpBlock">
+        <input type="text" placeholder="add ToDo" id="inp" />
+        <button onclick="createElem()">add</button>
+      </div>
+      <div class="successBlock">
+        <p>deleted: <span id="deleted">0</span></p>
+        <p>done: <span id="done">0</span></p>
+      </div>
+    </div>
+    <div class="todoBlock">
+      <ul id="list">
+        <!-- <li id="1">
+          fsdfsdf
+          <div>
+            <span class="delete" onclick="delete('fsdfsdf',1)">delete</span>
+            <span class="done" onclick="done('fsdfsdf',1)">done</span>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+    <script src="./build/main.js"></script>
+  </body>
+</html>
